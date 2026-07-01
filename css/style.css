@@ -315,3 +315,199 @@ nav a:hover{
     font-weight:600;
 
 }
+
+/* ===========================
+        Mission
+=========================== */
+
+.mission{
+
+    padding:90px 0;
+
+    background:#fff;
+
+}
+
+.mission-wrapper{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:80px;
+
+}
+
+.mission-text{
+
+    max-width:720px;
+
+}
+
+.mission-label{
+
+    display:inline-block;
+
+    margin-bottom:18px;
+
+    font-size:13px;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    color:#777;
+
+}
+
+.mission-text h2{
+
+    font-size:46px;
+
+    font-weight:300;
+
+    line-height:1.2;
+
+    margin-bottom:20px;
+
+}
+
+.mission-text p{
+
+    font-size:18px;
+
+    color:#666;
+
+}
+
+.mission-link{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-weight:600;
+
+    white-space:nowrap;
+
+    transition:.3s;
+
+}
+
+.mission-link:hover{
+
+    transform:translateX(6px);
+
+}
+
+/* ===========================
+   COLLECTIONS
+=========================== */
+
+.collections{
+
+    padding:100px 0;
+
+}
+
+.section-heading{
+
+    margin-bottom:50px;
+
+}
+
+.section-heading h2{
+
+    font-size:42px;
+
+    font-weight:300;
+
+    text-align:center;
+
+}
+
+.collection-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.collection-card{
+
+    position:relative;
+
+    overflow:hidden;
+
+    cursor:pointer;
+
+    border-radius:4px;
+
+}
+
+.collection-card img{
+
+    width:100%;
+
+    height:520px;
+
+    object-fit:cover;
+
+    transition:.5s;
+
+}
+
+.collection-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.collection-content{
+
+    position:absolute;
+
+    left:40px;
+
+    bottom:40px;
+
+    color:#fff;
+
+}
+
+.collection-content h3{
+
+    font-size:34px;
+
+    margin-bottom:12px;
+
+    font-weight:400;
+
+}
+
+.collection-content a{
+
+    display:inline-block;
+
+    padding-bottom:4px;
+
+    border-bottom:2px solid #fff;
+
+    color:#fff;
+
+    transition:.3s;
+
+}
+
+.collection-content a:hover{
+
+    opacity:.8;
+
+}
