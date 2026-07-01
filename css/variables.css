@@ -1,0 +1,18 @@
+:root {
+  /* Colors */
+  --primary: #111111;
+  --secondary: #767676;
+  --white: #ffffff;
+  --light: #f7f7f7;
+  --border: #e5e5e5;
+  --accent: #db4444;
+
+  /* Layout */
+  --container-width: 1280px;
+
+  /* Typography */
+  --font-family: "Inter", sans-serif;
+
+  /* Transitions */
+  --transition: all 0.3s ease;
+}
